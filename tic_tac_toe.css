@@ -113,9 +113,13 @@ button{
         height: 15vmin;
         margin-bottom: 20px;
     }
+    .rightbox{
+        height: 300px;
+        margin-top: 6rem;
+    }
 
     .right-button{
-        margin-top: 6rem;
+        margin-top: .8rem;
     }
 
     
