@@ -101,3 +101,61 @@ button{
 .hide {
     display: none;
 }
+
+
+
+
+@media screen and (max-width:350px) {
+    main{
+        flex-direction: column;
+    }
+    .container{
+        height: 15vmin;
+        margin-bottom: 20px;
+    }
+
+    .right-button{
+        margin-top: 6rem;
+    }
+
+    
+    .reset-bt {
+        height: 3rem;
+        width: 4rem;
+    margin: .5rem 0 .5rem;
+    text-align: center;
+    margin-bottom: .5rem;
+    font-family: cursive;
+    padding: .2rem;
+    font-size : .9rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: .8rem;
+    border: none;
+    }
+    
+#new-btn{
+    height: 3rem;
+    width: 4rem;
+margin: .5rem 0 .5rem;
+text-align: center;
+margin-bottom: .5rem;
+font-family: cursive;
+padding: .2rem;
+font-size : .9rem;
+background-color: #191913;
+color: #fff;
+border-radius: .8rem;
+border: none;
+}
+  
+
+    .game{
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
